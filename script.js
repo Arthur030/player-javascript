@@ -85,7 +85,6 @@ function setProgress(e) {
 	const duration = audio.duration;
 	
 	audio.currentTime = (clickX / width) * duration;
-	console.log(currentTime)
 }
 
 //get duration & currentTime for Time of song
